@@ -31,33 +31,50 @@ DRAGON-URL is a powerful Python-based security tool designed to analyze websites
 ![Python](https://img.shields.io/badge/Python-3.x-blue)  
 
 
-# DRAGON-SCAN: Advanced Wi-Fi Reconnaissance Toolkit  
-*Next-Generation Wireless Network Scanner for Security Professionals*  
+## 📸 Screenshots  
 
-![DRAGON-SCAN Banner](https://via.placeholder.com/800x200?text=DRAGON-SCAN+WIFI+SCANNER)  
+### **SCREENSHOTS**  
+![WCRACK](main.png)  
 
-## 🛠️ Core Scanning Features  
+### **SCREENSHOTS**  
+![WCRACK](main2.png)  
 
-### 📶 **Network Discovery**  
-- **Live AP Detection**  
-  - SSID, BSSID, Channel, Encryption type  
-  - Signal strength (RSSI) and beacon intervals  
-- **Hidden SSID Revealer**  
-  - De-cloaks hidden networks via probe requests  
-- **Enterprise Network Analyzer**  
-  - Rogue AP detection for WPA2-Enterprise  
 
-### 📡 **Client Intelligence**  
-- **Device Fingerprinting**  
-  - Vendor OUI detection (MAC address analysis)  
-  - Probe request history (preferred networks)  
-- **Traffic Analysis**  
-  - Data rate, packet size, connection duration  
 
-### 🔍 **Vulnerability Assessment**  
+## Installation  
+Tested On :
+
+    Kali Linux
+    BlackArch Linux
+    Ubuntu
+    Kali Nethunter
+    Termux ( Rooted Devices)
+    Parrot OS
+
+### Prerequisites  
+- 𝙆𝘼𝙇𝙄 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+- 𝐓𝐄𝐑𝐌𝐔𝐗 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
+-  𝐏𝐚𝐫𝐫𝐨𝐭 𝐎𝐒 ![Parrot OS](https://img.shields.io/badge/Parrot_OS-FF6600?style=for-the-badge&logo=parrotos&logoColor=white)
+-  𝐔𝐛𝐮𝐧𝐭𝐮 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+
+
+## Installation Guides
+
 ```bash
-[!] WEAK_SECURITY: TKIP detected on NETWORK_NAME (BSSID: XX:XX:XX:XX:XX)  
-[!] WPS_LOCKED: Router Model XYZ vulnerable to Pixie Dust attack  
+# 1. Update system
+sudo apt update && sudo apt full-upgrade -y
+
+# 2. install python
+ sudo apt install python3-pip
+
+# 3. Clone repository
+git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
+cd WIFI-CrackV1.0
+
+# 4. Run tool
+sudo python3 WIFI-C.py
+
 
 
 
