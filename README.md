@@ -67,6 +67,43 @@ Tested On :
 
 
 
+
+بــيــان إخــلاء المســؤولية القانونيــة
+
+باللغة العربية:
+١. هذه الأداة مخصصة لأغراض اختبار الأمن السيبراني القانوني فقط، ويجب استخدامها فقط على الشبكات التي تمتلكها أو لديك إذن كتابي لاختبارها.
+
+٢. الاستخدام غير المصرح به لأي شبكة لاسلكية يعد انتهاكًا قانونيًا وفقًا لقوانين جرائم المعلوماتية في معظم الدول (مثل المادة 3 من نظام مكافحة الجرائم المعلوماتية السعودي، المادة ٨٨٠ من القانون المدني المصري).
+
+٣. لا يتحمل المطور أي مسؤولية عن سوء الاستخدام أو الأضرار الناتجة عن هذه الأداة.
+
+٤. يُنصح بشدة باستخدام هذه الأداة في بيئات معملية مغلقة أو خلال اختبارات الاختراق المصرح بها (Penetration Testing).
+Legal Disclaimer
+
+In English:
+
+    This tool is designed only for legal cybersecurity testing purposes. Use exclusively on networks you own or have written permission to test.
+
+    Unauthorized scanning/attacking of wireless networks violates cybercrime laws (e.g., Saudi Arabia's Anti-Cyber Crime Law Article 3, UAE Cybercrime Law No. 5/2012, US Computer Fraud and Abuse Act).
+
+    The developer accepts no liability for misuse or damages caused by this tool.
+
+    Recommended use cases:
+
+        Authorized penetration testing
+
+        Academic security research
+
+        Certified training environments
+
+    By using this tool, you acknowledge that:
+
+        You understand applicable laws in your jurisdiction
+
+        You accept full legal responsibility for your actions
+
+
+
 ## Installation Guides
 
 ```bash
