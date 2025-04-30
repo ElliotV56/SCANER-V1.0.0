@@ -363,5 +363,5 @@ if __name__ == "__main__":
     try:
         scanner = DragonURLScanner()
     except KeyboardInterrupt:
-        print("\nGoodbye!")
+        print("\nGoodbye! GO TO MY PROFILE ;)")
         exit()
