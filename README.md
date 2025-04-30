@@ -77,13 +77,8 @@ sudo apt update && sudo apt full-upgrade -y
  sudo apt install python3-pip
 
 # 3. Clone repository
-git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
-cd WIFI-CrackV1.0
+git clone https://github.com/ElliotV56/SCANER-V1.0.0.git
+cd SCANER-V1.0.0
 
 # 4. Run tool
-sudo python3 WIFI-C.py
-
-
-
-
-  
+python3 D-URL.py
