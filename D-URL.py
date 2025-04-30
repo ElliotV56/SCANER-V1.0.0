@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import os
 import requests
 import re
@@ -8,7 +11,30 @@ from datetime import datetime
 import ipaddress
 from bs4 import BeautifulSoup
 import warnings
+import sys
 warnings.filterwarnings("ignore")
+
+# ===== LEGAL DISCLAIMER =====
+def show_legal_warning():
+    red = "\033[1;31m"
+    yellow = "\033[1;33m"
+    reset = "\033[0m"
+    
+    print(f"\n{red}╔{'═'*60}╗")
+    print(f"║{'LEGAL WARNING':^60}║")
+    print(f"╚{'═'*60}╝{reset}")
+    print(f"{yellow}[!] This tool is for authorized security testing only.")
+    print(f"[!] Unauthorized use against networks you don't own is illegal.")
+    print(f"[!] You are solely responsible for your actions.{reset}")
+    print(f"{yellow}[!] By using this tool, you agree to use it only for lawful purposes.")
+    print(f"[!] The developer is not responsible for any misuse.{reset}")
+    
+    response = input("\nType 'I AGREE' to continue or any key to exit: ").strip()
+    if response.upper() != "I AGREE":
+        sys.exit(f"{red}[!] Legal agreement not accepted. Exiting...{reset}")
+
+# Show warning immediately when script starts
+show_legal_warning()
 
 class DragonURLScanner:
     def __init__(self):
